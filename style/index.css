@@ -1,34 +1,119 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
 
-*{
-    box-sizing:border-box;
-    padding:0;
-    margin:0;
-  }
-body{
-    background-color:lightskyblue;
-    font-size:25px;
+@import
+  url("https://fonts.googleapis.com/css2?family=MedievalSharp&family=Press+Start+2P&display=swap");
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-  html{
-    font-size:62.5%;
-  }
-    
-    
-  header{
-      background-color: gray;
-      padding-bottom: 9%;
-  }
-  h1{
-      font-size:45px;
-  }
-  header nav{
-      margin-left:5%;
-      display: inline-block;
-      }
+body {
+  background-color:darkcyan;
+  font-size: 25px;
+  font-family:"PressStart2P",cursive;
+  text-align:center;
+}
+html {
+  font-size: 62.5%;
+}
 
-      #first img{
-        border-radius: 30px;
-        display:flex;
-          flex-direction: row;
+header {
+  background-color: gray;
+  padding-bottom: 3%;
+}
+h1 {
+  font-size: 45px;
+  margin-right: 80%;
+  font-family: MedievalSharp, cursive;
+}
+header nav {
+    margin-right:70%;
+  }
 
-      }
+#first{
+ display:flex;
+ justify-content: space-evenly;
+ border-radius: 30px;
+}
+#first img{
+    width:300px;
+}
+
+#second{
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 30px;
+  
+}
+
+#second img{
+    width:400px;
+}
+
+
+a {
+    color: white;
+    border: 1px solid black;
+    border-width: 8px;
+    border-radius: 15%;
+    font-size: 1.5rem;
+    font-family: MedievalSharp, cursive;
+    background: black;
+    text-decoration: none;
+}
+
+a:hover{
+    border-color:yellow;
+    background-color:yellow;
+    color: black;
+}
+
+header nav{
+    display:inline-block;
+    margin-top: 50px;
+}
+#info{
+  display: flex;
+}
+
+#contact{
+  display: flex;
+  justify-content: center;
+    
+}
+#last{
+  
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  padding: 5rem;
+}
+#insta {
+  display: flex;
+  justify-content: center;
+  
+}
+
+#info p{
+    text-align:left;
+}
+
+footer{
+    background-color: gray;
+}
