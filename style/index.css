@@ -40,8 +40,13 @@ header {
 h1 {
   font-size: 45px;
   margin-right: 80%;
-  font-family: MedievalSharp, cursive;
+  font-family: "MedievalSharp", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+h2{
+    font-size: 25px;
+}
+
 header nav {
     margin-right:70%;
   }
@@ -50,10 +55,13 @@ header nav {
  display:flex;
  justify-content: space-evenly;
  border-radius: 30px;
+ margin-top:25px;
 }
 #first img{
     width:300px;
 }
+
+
 
 #second{
   display: flex;
